@@ -1,0 +1,14 @@
+[package]
+name = "base"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+avian3d = { version = "0.2", default-features = false, features = [
+    "3d",
+    "f32",
+    "parallel",
+    "parry-f32",
+    "serialize",
+    "simd",
+] }

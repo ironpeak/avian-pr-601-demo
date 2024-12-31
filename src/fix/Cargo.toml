@@ -1,0 +1,18 @@
+[package]
+name = "fix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+avian3d = { version = "0.2", default-features = false, features = [
+    "3d",
+    "f32",
+    "parallel",
+    "parry-f32",
+    "serialize",
+    "simd",
+] }
+
+[patch.crates-io]
+avian3d = { git = "https://github.com/ironpeak/avian", rev = "de7043eebea24e91523caffa5982b74d129fcb13" }
+avian_derive = { git = "https://github.com/ironpeak/avian", rev = "de7043eebea24e91523caffa5982b74d129fcb13" }
