@@ -14,5 +14,5 @@ avian3d = { version = "0.2", default-features = false, features = [
 ] }
 
 [patch.crates-io]
-avian3d = { git = "https://github.com/ironpeak/avian", rev = "de7043eebea24e91523caffa5982b74d129fcb13" }
-avian_derive = { git = "https://github.com/ironpeak/avian", rev = "de7043eebea24e91523caffa5982b74d129fcb13" }
+avian3d = { git = "https://github.com/ironpeak/avian", rev = "4daec60054673b7e44b88b32513fe7a58382cdaf" }
+avian_derive = { git = "https://github.com/ironpeak/avian", rev = "4daec60054673b7e44b88b32513fe7a58382cdaf" }
